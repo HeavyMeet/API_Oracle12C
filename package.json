@@ -1,0 +1,33 @@
+{
+  "name": "api_edomex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "compilerOptions": {
+    "allowJs": true,
+    "strict": false
+  },
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.10.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.1",
+    "graphql": "^16.6.0",
+    "graphql-upload": "^13.0.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "node-windows": "^1.0.0-beta.8",
+    "oracledb": "^5.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
